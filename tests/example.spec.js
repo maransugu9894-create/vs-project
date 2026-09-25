@@ -6,3 +6,4 @@ test('SauceDemo',async({page})=>{
   await Login.login(user.user4.name,user.password);
   await page.waitForTimeout(3000);
 })
+
